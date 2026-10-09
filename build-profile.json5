@@ -1,0 +1,60 @@
+{
+  "app": {
+    "signingConfigs": [],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "targetSdkVersion": "26.0.0",
+        "compatibleSdkVersion": "6.1.1(24)",
+        "runtimeOS": "HarmonyOS",
+        "buildOption": {
+          "strictMode": {
+            "caseSensitiveCheck": true,
+            "useNormalizedOHMUrl": true
+          }
+        }
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug",
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    // 产品定制层：入口必须留在工程根目录的 entry，DevEco 预览和运行按这个路径找
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    },
+    // 公共能力层：只能被产品层和特性层依赖
+    {
+      "name": "basic",
+      "srcPath": "./commons/basic"
+    },
+    {
+      "name": "network",
+      "srcPath": "./commons/network"
+    },
+    {
+      "name": "datastore",
+      "srcPath": "./commons/datastore"
+    },
+    {
+      "name": "uikit",
+      "srcPath": "./commons/uikit"
+    }
+  ]
+}

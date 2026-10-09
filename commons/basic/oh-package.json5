@@ -1,0 +1,13 @@
+{
+  "name": "basic",
+  "version": "1.0.0",
+  "description": "公共基础能力：日志、通用类型。",
+  "main": "Index.ets",
+  "author": "",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@hzw/logger": "^1.1.1"
+  },
+  "devDependencies": {},
+  "dynamicDependencies": {}
+}

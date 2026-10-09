@@ -1,0 +1,11 @@
+{
+  "name": "datastore",
+  "version": "1.0.0",
+  "description": "公共存储能力：Preferences、数据库等本地数据。",
+  "main": "Index.ets",
+  "author": "",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "basic": "file:../basic"
+  }
+}

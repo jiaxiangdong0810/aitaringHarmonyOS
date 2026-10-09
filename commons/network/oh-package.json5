@@ -1,0 +1,11 @@
+{
+  "name": "network",
+  "version": "1.0.0",
+  "description": "公共网络能力。页面不直接发请求，统一走这里。",
+  "main": "Index.ets",
+  "author": "",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "basic": "file:../basic"
+  }
+}

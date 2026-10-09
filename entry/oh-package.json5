@@ -1,0 +1,15 @@
+{
+  "name": "entry",
+  "version": "1.0.0",
+  "description": "Please describe the basic information.",
+  "main": "",
+  "author": "",
+  "license": "",
+  "dependencies": {
+    "basic": "file:../commons/basic",
+    "network": "file:../commons/network",
+    "datastore": "file:../commons/datastore",
+    "uikit": "file:../commons/uikit"
+  }
+}
+
