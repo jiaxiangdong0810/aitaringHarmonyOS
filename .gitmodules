@@ -1,0 +1,4 @@
+[submodule "reference/flutter"]
+	path = reference/flutter
+	url = git@gitee.com:beijing-youai-he/aitaringapp.git
+	branch = feature/new-app
